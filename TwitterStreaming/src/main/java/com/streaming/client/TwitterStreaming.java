@@ -78,6 +78,9 @@ public class TwitterStreaming {
 						fileout.println("--------------------------------------------------");
 						fileout.println(tweet.getCreatedAt());
 						fileout.println(tweet.getText());
+						fileout.println("**************************************************");
+						fileout.println(tweet);
+						fileout.println("**************************************************");
 						fileout.println("--------------------------------------------------");
 						fileout.flush();
 
