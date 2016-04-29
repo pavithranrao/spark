@@ -38,7 +38,7 @@ public class TwitterStreaming {
 		Properties prop = new Properties();
 		InputStream input = null;
 
-		input = new FileInputStream("config.properties");
+		input = new FileInputStream("../TwitterStreaming/src/main/resources/config.properties");
 
 		// load a properties file
 		prop.load(input);
